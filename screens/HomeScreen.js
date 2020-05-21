@@ -23,7 +23,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
           <DevelopmentModeNotice />
 
-          <Text style={styles.getStartedText}>Open up the code for this screen:</Text>
+          <Text style={styles.getStartedText}>Openn up the code for this screen:</Text>
 
           <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
             <MonoText>screens/HomeScreen.js</MonoText>
@@ -54,6 +54,7 @@ export default function HomeScreen() {
 
 HomeScreen.navigationOptions = {
   header: null,
+  
 };
 
 function DevelopmentModeNotice() {
