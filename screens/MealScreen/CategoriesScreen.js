@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Image, Platform, StyleSheet, Text, TouchableOpacity, View , FlatList } from 'react-native';
 //import { ScrollView } from 'react-native-gesture-handler';
 
-import {CATEGORIES} from '../../data/dammy-data';
+import {CATEGORIES ,MEALS} from '../../data/dammy-data';
 import CategoryGridTile from '../../components/CategoryGridTile';
 
  const CategoriesScreen =( props , route) => {
